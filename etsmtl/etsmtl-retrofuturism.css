@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:100,200" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P:400,700" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=Audiowide:400,700" rel="stylesheet');
+
+body, h2, span {
+    font-family: 'Audiowide', serif;
+}
+
+h2 {
+    font-size: 17px !important;
+}
+
+
+#main, html {
+    background-color : #121a24;
+}
+
+#header, aside#left-panel , #logo-group{
+    background: #243443 !important;   
+}
+
+nav ul li a {
+    font-size: 12px !important;
+}
+
+
+#divSmallBoxes{
+    pointer-events: none !important;
+    height: 100%;
+    width: 100%;
+    z-index: 10000;
+    display: block;
+    
+    /** WEBKIT **/
+    background: -webkit-repeating-linear-gradient(top, transparent 0px, transparent 1px, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0.5) 3px);
+    -webkit-background-size: 100% 10px;
+  
+    /** MOZILLA **/
+    background: -moz-repeating-linear-gradient(top, transparent 0px, transparent 0px, rgba(0, 0, 0, 0.6) 1px, rgba(0, 0, 0, 0.2) 2px);
+    -moz-background-size: 100% 10px;
+}
+
+#logo-group {
+    width: 100% !important;
+    position: absolute !important;
+    text-align: center;
+}
+
+.kommunicate-custom-iframe {
+    z-index: 500 !important;
+}
+
+.open > .dropdown-menu {
+    -webkit-animation-name: none;
+    -moz-animation-name: none;
+    -o-animation-name: none;
+    animation-name: none;
+    -webkit-animation-duration: 0s;
+    -moz-animation-duration: 0s;
+    -o-animation-duration: 0s;
+    animation-duration: 0s;
+    -webkit-animation-fill-mode: none;
+    -moz-animation-fill-mode: none;
+    -o-animation-fill-mode: none;
+    animation-fill-mode: none;
+}
+
+.jarviswidget > header {
+    background: #c34b0f;
+    border: none !important;
+
+}
+
+.fc-today, .fc-state-highlight {
+    background-color: #f7eacd !important;
+}
+
+.fc-time-grid-event.fc-short {
+   margin-top: -25px;
+}
+
+.jarviswidget > div {
+    background-color: #FFF8E7 !important;
+    border-style: none !important;
+}
+
+.widget-body-toolbar, .well, .modal-content{
+        background-color: #FFF8E7 !important;
+}
+
+.jarviswidget > header {
+    border-radius: 5px 5px 0px 0px !important;
+}
+
+.jarviswidget > div {
+    margin-bottom: 10px;
+    border-radius: 0px 0px 5px 5px !important;
+}
+
+aside#left-panel > nav > ul > li > a{
+    height: 50px;
+}
+
+.ui-resizable-handle {
+    border-bottom: none !important;
+}
+
+button.btn {
+    background: #c85b25;
+    border-color: #c85b25;
+    color: #fff;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+}
+
+button.btn:hover {
+    background: #c85b25;
+    border-color: #c85b25;
+    color: #fff;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+}
+
+input.btn {
+    color: black;
+}
+
+.table thead tr th {
+    background-color: #e8e1d2 !important;
+}
+
+li.active {
+    border: 1px solid #c85b25;
+}
+
+.coordonnees .label, .labels {
+    color: #e8e1d2;  
+}
+
+input, .coordonnees select {
+    background: #e8e1d2 !important;
+}
+
+.fc-left {
+    margin-left: 5px;
+}
+.fc-left h2 {
+    text-transform: uppercase;
+    background-color: #121a24;
+    width: 250px;
+    font-size: 12px !important;
+    font-family: 'Press Start 2P', sans-serif;
+    padding: 3px 7px;
+    border-radius: 2px;
+    color:  #fff;
+     text-shadow:
+    /* White glow */
+    0 0 7px #8DCFE0,
+    0 0 10px #8DCFE0,
+    0 0 21px #8DCFE0,
+    0 0 42px #8DCFE0,
+    0 0 82px #8DCFE0;
+}
+
+#profile-menu li a {
+    color: #c85b25;
+}
+
+.googleapps_logo {
+    filter: grayscale(100%) contrast(0%);
+}
+
+#language-btn {
+    background-color: #c85b25;
+    background-image: none !important;
+    border: none;
+    color: white;
+    margin-left: 5px;
+}
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #33485c #FFF8E7;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #FFF8E7;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #33485c;
+  border-radius: 20px;
+  border: 3px solid #FFF8E7;
+}
+
