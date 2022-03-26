@@ -9,12 +9,14 @@ html,body,.headerContainer-471773205, .headerWrapper-3599732097, .container-prim
 .favouritesListing-3473436393, .categoryListWrapper-4213943590, .autocompleteSuggestions-1135436611, .popularLinks-4150601344, .menu-1932840945, .container-346951201, .listContainer-423352197, .container__success-2527921021, 
 .checkboxButton-1007998757, .container__tip-199291752, .conversationList-4077374298, .conversationWrapper-1013643414, .adImage__placeholder-4009987568, .light-3420168793, .item-3899203537, .container-info-redesign, .r2s-1114502950, .container-2378752042, 
 .container-results .top-bar, .top-bar, .field-2518957420, .label-4021859886, .postAdHeaderBar-1601578265, .categoryListItem-3726364752, .selectedCategoryListItem-3687705771, #PostingLimitMessage, .tagItem-3204551167, .image-toolbar, .postingLocationContainer-809359957,
- .day-selector, .systemMessage-759360815, .container-320606823, .container-2383210590, .imageContainer-3123662143, .moreMenu-2384177834, .moreMenuItem-254295314, .messageListScrollContainer-1996334519, .sendMessageBox-254937885 {
+ .day-selector, .systemMessage-759360815, .container-320606823, .container-2383210590, .imageContainer-3123662143, .moreMenu-2384177834, .moreMenuItem-254295314, .messageListScrollContainer-1996334519, .sendMessageBox-254937885,.container-4289908283, .js-hover {
     background-color: #3e3e3e !important;
 }
 
+
+
 /* 3rd shade of grey */
-.item-1643145166.highlighted, .item-1643145166.selected, .activeCategory-1548365336, .categoryItem-3821201542:hover, .itemHighlighted-862834792, .autocompleteSuggestionHighlighted-1124866002, .js-hover, .categoryButton-3830788057:hover, .image-area, 
+.item-1643145166.highlighted, .item-1643145166.selected, .activeCategory-1548365336, .categoryItem-3821201542:hover, .itemHighlighted-862834792, .autocompleteSuggestionHighlighted-1124866002, .categoryButton-3830788057:hover, .image-area, 
 #postingLocation, .container-1224886588, .container-2383210590:hover {
     background-color: #6c6c6c !important;
 }
@@ -32,7 +34,7 @@ html,body,.headerContainer-471773205, .headerWrapper-3599732097, .container-prim
  div[itemprop="description"], .link-1956053651, .address-3617944557, .reportAdButton-4111229491 .icon-459822882 , .shareLink__default-1808712150 svg , .favouriteButtonLabel-1782044459 , .printButton-592315287 svg, .attributeValue-2574930263, 
  .item-3809132392, .menuLink-3427205540, .promoLink-3756377791, .autocompleteSuggestion-1554128982, .autocompleteSuggestion-1554128982:before, .forSaleByLabel-4179516782, .categoryName-958974558, .messageBody-4014698121, .breadcrumbLabel-3185981198, .radioLabel-1678868893, .label-345100851,
 .breadcrumbs-2362016912, .tip-headline, .layout-0 h1, .layout-0 span, .layout-0 strong, .locationText-1019604843, .feature-name, .day-selector, .days, .gallery-header, .currentCrumb-3831268168, .description-1016185941, .title-2323565163, .description-888801384, .headerTitle-3169899864,
- .message-220034560 {
+ .message-220034560, .messageTitle-3647175281 {
     color: #ddd !important;
 }
 
@@ -149,6 +151,7 @@ html,body,.headerContainer-471773205, .headerWrapper-3599732097, .container-prim
 .menuContainer-264939997, .menusContainer-1684498334, .menuFlyout-2142064776, .menuContainer-264939997 {
     background-image: none !important;
     background-color: transparent;
+    top: 49px !important;
 }
 
 .menuLink__isSubMenu-2454228233:hover {
@@ -321,7 +324,7 @@ tr.total td {
 
 
 
-.modal .body .category-details .adv-tab h2 {
+.modal .body .category-details .adv-tab h2, .title-698598903, .resultsHeading-1285903303, .resultsShowingCount-1707762110 {
     color: #6c62ca !important;
 }
 
